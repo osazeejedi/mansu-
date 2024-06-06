@@ -29,12 +29,12 @@ const MarketingServices = () => {
         </Reveal>
         <div className="space-y-4">
           {MarketingServicesItems.map(({ item, id }) => (
-            <div key={id} className="flex items-start gap-2">
+            <Reveal key={id} className="flex items-start gap-2">
               <div className="bg-white p-1 rounded-full">
                 <MansuLogo />
               </div>
               <p>{item}</p>
-            </div>
+            </Reveal>
           ))}
         </div>
       </div>

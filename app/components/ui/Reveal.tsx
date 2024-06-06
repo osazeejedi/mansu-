@@ -45,7 +45,7 @@ export const Reveal = ({
       <motion.div
         variants={{
           hidden: startPosition[position],
-          visible: { opacity: 1, y: 0.5, x: 0.5 },
+          visible: { opacity: 1, y: 0, x: 0 },
         }}
         initial="hidden"
         animate={mainControls}

@@ -21,24 +21,22 @@ const BusinessStrategyItems = [
 const BusinessStrategy = () => {
   return (
     <div className="bg-background flex flex-col lg:flex-row items-center justify-between gap-0 lg:gap-10 pt-10 lg:pt-0 px-4 md:px-6 mt-10">
-      <Reveal>
-        <div className="self-start lg:self-auto">
-          <h3 className="text-2xl md:text-4xl font-medium mb-5">
-            Business Strategy Consulting
-          </h3>
+      <div className="self-start lg:self-auto">
+        <Reveal className="text-2xl md:text-4xl font-medium mb-5">
+          Business Strategy Consulting
+        </Reveal>
 
-          <div className="space-y-4">
-            {BusinessStrategyItems.map(({ item, id }) => (
-              <div key={id} className="flex items-start gap-2">
-                <div className="bg-white p-1 rounded-full">
-                  <MansuLogo />
-                </div>
-                <p>{item}</p>
+        <div className="space-y-4">
+          {BusinessStrategyItems.map(({ item, id }) => (
+            <Reveal key={id} className="flex items-start gap-2">
+              <div className="bg-white p-1 rounded-full">
+                <MansuLogo />
               </div>
-            ))}
-          </div>
+              <p>{item}</p>
+            </Reveal>
+          ))}
         </div>
-      </Reveal>
+      </div>
 
       <Reveal className="hidden sm:block" position="right">
         <div className="relative h-[400px] w-full sm:w-[400px]">

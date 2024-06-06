@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <div className="container mx-auto p-4 font-semibold">
       <div className="flex items-center justify-between">
-        <div className="relative ">
+        <Link href="/" className="relative ">
           <Image
             quality={100}
             src={"/mansu-logo.png"}
@@ -38,7 +38,7 @@ const Header = () => {
             width={55}
             height={55}
           />
-        </div>
+        </Link>
 
         <Reveal position="top">
           <div

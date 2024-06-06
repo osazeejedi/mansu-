@@ -27,19 +27,23 @@ const Discover = () => {
       </div>
       <div className="h-[500px]  bg-pink-dark flex flex-col justify-between px-4 py-8">
         <AssemblyIcon fill="#fff" />
-        <h6 className="text-2xl  w-1/3 font-medium">Payroll Services</h6>
+        <Reveal className="text-2xl  w-1/3 font-medium">
+          Payroll Services
+        </Reveal>
         <MultipleXIcons />
       </div>
       <div className="h-[500px] bg-pink-light flex flex-col justify-between px-4 py-8">
         <AssemblyIcon fill="#fff" />
-        <h6 className="text-2xl w-1/3 font-medium">
+        <Reveal className="text-2xl w-1/3 font-medium">
           Human Resources Consulting
-        </h6>
+        </Reveal>
         <MultipleXIcons />
       </div>
       <div className="h-[500px] bg-pink flex flex-col justify-between px-4 py-8">
         <AssemblyIcon fill="#fff" />
-        <h6 className="text-2xl  w-1/3 font-medium">Marketing Services</h6>
+        <Reveal className="text-2xl  w-1/3 font-medium">
+          Marketing Services
+        </Reveal>
         <MultipleXIcons />
       </div>
     </div>
