@@ -16,16 +16,16 @@ const TrustedPartners = () => {
       slidesPerView: 2,
     },
     992: {
-      slidesPerView: 2,
+      slidesPerView: 3,
     },
     1200: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
   };
 
   return (
     <div className="bg-primary text-white">
-      <div className="container mx-auto p-4  items-center">
+      <div className="py-6">
         <Swiper
           spaceBetween={20}
           slidesPerView={2}
@@ -39,7 +39,7 @@ const TrustedPartners = () => {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <h4 className="font-medium text-sm sm:text-base md:text-xl">
+            <h4 className="font-medium md:text-xl">
               Trusted by <span className="font-bold">3000 customers</span>
             </h4>
           </SwiperSlide>

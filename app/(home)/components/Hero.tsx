@@ -22,10 +22,10 @@ const Hero = () => {
       <div className="container mx-auto flex flex-col md:flex-row">
         <div className="flex flex-col items-center justify-center px-4 py-14 md:p-4 ">
           <Reveal>
-            <h2 className="text-2xl md:text-5xl lg:text-6xl lg:w-4/5 mb-3 font-medium">
+            <h2 className="text-3xl md:text-5xl lg:text-6xl w-full xl:w-4/5 mb-3 font-medium">
               Expert Guidance for Business Success
             </h2>
-            <p className="text-secondary md:w-4/5 lg:w-3/5 mb-3">
+            <p className="text-secondary w-4/5 lg:w-3/5 mb-3">
               Mansu provides tailored consultancy services to help businesses
               grow and thrive
             </p>
@@ -33,7 +33,7 @@ const Hero = () => {
           </Reveal>
         </div>
 
-        <div className="rotate-90 md:rotate-0 h-[420px] md:h-full md:w-[500px]">
+        <div className="rotate-90 md:rotate-0 h-full  md:h-full md:w-[500px]">
           <Lottie options={defaultOptions} />
         </div>
       </div>
