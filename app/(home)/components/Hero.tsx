@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div
       style={{ backgroundImage: `url(/assets/images/home/heroBg.png)` }}
-      className="h-[600px] text-white flex flex-col items-center justify-center"
+      className="min-h-[600px] text-white flex flex-col items-center justify-center bg-center bg-cover bg-no-repeat"
     >
       <div className="container mx-auto p-4 flex">
         <div className="flex flex-col">

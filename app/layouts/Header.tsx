@@ -7,7 +7,7 @@ import React, { useState } from "react";
 const navItems = [
   {
     text: "Home",
-    path: "home",
+    path: "/",
   },
   {
     text: "About",
