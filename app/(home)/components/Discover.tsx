@@ -1,6 +1,7 @@
 import AssemblyIcon from "@/app/components/Icons/AssemblyIcon";
 import MultipleXIcons from "@/app/components/Icons/MultipleXIcons";
 import { Button } from "@/app/components/ui/Button";
+import { Reveal } from "@/app/components/ui/Reveal";
 import React from "react";
 
 const Discover = () => {
@@ -8,9 +9,11 @@ const Discover = () => {
     <div className="grid grid-col-1 md:grid-cols-5 lg:grid-cols-6 mt-28 text-white">
       <div className="col-span-1 sm:col-span-3 md:col-span-2 lg:col-span-3 bg-primary-dark">
         <div className="px-4 sm:w-4/5 md:w-2/3 mx-auto h-[500px] flex flex-col justify-center space-y-6">
-          <h3 className="font-medium text-2xl sm:text-3xl lg:text-5xl">
-            Mansu is so much more
-          </h3>
+          <Reveal>
+            <h3 className="font-medium text-2xl sm:text-3xl lg:text-5xl">
+              Mansu is so much more
+            </h3>
+          </Reveal>
           <p>
             At Mansu, we take a collaborative approach to consultancy. We
             believe that the best solutions come from working closely with our

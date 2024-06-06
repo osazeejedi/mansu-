@@ -6,12 +6,12 @@ const AboutHero = () => {
   return (
     <div
       style={{ backgroundImage: `url(/assets/images/about/about-hero.png)` }}
-      className="min-h-[400px] text-white flex flex-col items-center justify-center bg-center bg-cover bg-no-repeat"
+      className="min-h-[450px] text-white flex flex-col items-center justify-center bg-center bg-cover bg-no-repeat"
     >
       <div className="container mx-auto p-4 text-center flex">
         <div className="flex flex-col justify-center items-center">
           <h2 className="text-2xl mb-3 font-bold uppercase">About Mansu</h2>
-          <p className="text-secondary md:w-3/5 mb-3">
+          <p className="md:w-3/5 mb-3">
             Welcome to Mansu.io, a consultancy business that provides expert
             guidance and resources to help tech start-ups succeed. Our team of
             experienced consultants is dedicated to helping new businesses

@@ -8,9 +8,9 @@ const buttonVariants = cva(
       variant: {
         default: "text-white bg-primary hover:bg-primary/50",
         danger: "bg-red-500 hover:bg-red-500/50 text-white",
-        outline: "text-green bg-transparent border-green border",
+        outline: "text-white bg-transparent border",
 
-        white: "bg-white text-black",
+        white: "bg-white text-black hover:bg-white/50",
       },
       size: {
         default: "py-[11px] px-5",

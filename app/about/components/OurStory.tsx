@@ -60,7 +60,7 @@ const OurStory = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 mx-4 md:grid-cols-5 mt-10 mb-24">
+        <div className="grid grid-cols-1 mx-4 md:grid-cols-5 md:mt-14 mb-28">
           <div className="col-span-2 flex flex-col justify-end">
             <h4 className="text-2xl my-8 md:my-0 w-1/2 md:w-full md:text-5xl font-semibold">
               Fresh Ideas for Every Business
