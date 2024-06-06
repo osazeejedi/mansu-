@@ -33,7 +33,7 @@ const Hero = () => {
           </Reveal>
         </div>
 
-        <div className="rotate-90 md:rotate-0 h-[400px] md:h-full md:w-[500px]">
+        <div className="rotate-90 md:rotate-0 h-[420px] md:h-full md:w-[500px]">
           <Lottie options={defaultOptions} />
         </div>
       </div>
