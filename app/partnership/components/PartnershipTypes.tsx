@@ -8,12 +8,14 @@ const PartnershipTypes = () => {
         individuals who share our commitment to helping businesses thrive.
       </p>
 
-      <h6 className="font-semibold text-3xl w-full md:w-4/5 md:text-5xl mt-20">
+      <h6 className="font-semibold text-2xl sm:text-3xl w-full md:w-4/5 md:text-5xl mt-20">
         Some of the types of partnerships we’re interested in include:
       </h6>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-8 border-black border-y py-10">
-        <h4 className="font-semibold text-4xl">Incubators and Accelerators</h4>
+        <h4 className="font-semibold text-2xl md:text-4xl">
+          Incubators and Accelerators
+        </h4>
         <p className="lg:col-span-2">
           We partner with incubators and accelerators to provide businesses with
           the resources they need to succeed. Our consultancy services
@@ -23,7 +25,7 @@ const PartnershipTypes = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-8 border-black border-b pb-10">
-        <h4 className="font-semibold text-4xl">Industry Experts</h4>
+        <h4 className="font-semibold text-2xl md:text-4xl">Industry Experts</h4>
         <p className="lg:col-span-2">
           We partner with industry experts to provide our clients with
           specialized knowledge and expertise. Our network of experts includes

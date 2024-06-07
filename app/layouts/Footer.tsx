@@ -25,7 +25,7 @@ const Footer = () => {
               <Image src="/logo-white.png" alt="logo" width={60} height={60} />
             </div>
 
-            <p className="text-grey text-xl md:pr-8">
+            <p className="text-grey text-xl md:pr-8 w-full md:w-4/5">
               Mansu is a consultancy business that provides expert guidance and
               resources to help tech start-ups succeed.
             </p>
