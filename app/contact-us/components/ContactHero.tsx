@@ -9,11 +9,11 @@ const ContactHero = () => {
       }}
       className="min-h-[200px] text-white flex flex-col justify-center bg-center bg-cover bg-no-repeat"
     >
-      <Reveal className="container mx-auto p-4">
-        <h3 className="text-2xl md:text-6xl text-center md:text-left font-semibold">
+      <div className="container mx-auto p-4">
+        <Reveal className="text-2xl md:text-6xl text-center md:text-left font-semibold">
           Contact Us
-        </h3>
-      </Reveal>
+        </Reveal>
+      </div>
     </div>
   );
 };

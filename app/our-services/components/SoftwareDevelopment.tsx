@@ -3,7 +3,7 @@ import React from "react";
 
 const SoftwareDevelopment = () => {
   return (
-    <Reveal className="container mx-auto">
+    <div className="container mx-auto">
       <div
         style={{
           backgroundImage: `url(/assets/images/services/software-dev-bg.png)`,
@@ -25,7 +25,7 @@ const SoftwareDevelopment = () => {
           </p>
         </div>
       </div>
-    </Reveal>
+    </div>
   );
 };
 

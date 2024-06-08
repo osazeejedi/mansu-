@@ -5,8 +5,8 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <Reveal className="container mx-auto p-4 mt-14 mb-24">
-      <div className="text-center">
+    <div className="container mx-auto p-4 mt-14 mb-24">
+      <Reveal className="text-center">
         <h3 className="text-2xl md:text-5xl lg:text-6xl w-11/12 lg:10/12 font-semibold mb-4 mx-auto">
           Leave your message and we&apos;ll get back to you shortly.
         </h3>
@@ -16,8 +16,7 @@ const ContactForm = () => {
             info@mansu.io
           </a>
         </p>
-      </div>
-
+      </Reveal>
       <div className="mt-14 space-y-12">
         <TextInput placeholder="Name" />
         <TextInput placeholder="Email" type="email" />
@@ -25,7 +24,7 @@ const ContactForm = () => {
         <TextInput placeholder="Message" />
         <Button className="w-full">Send your Message</Button>
       </div>
-    </Reveal>
+    </div>
   );
 };
 
