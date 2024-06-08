@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <div
       style={{ backgroundImage: `url(/assets/images/home/heroBg.png)` }}
-      className=" text-white flex flex-col bg-center bg-cover bg-no-repeat"
+      className=" text-white flex flex-col bg-black bg-center bg-cover bg-no-repeat"
     >
       <div className="container mx-auto flex flex-col md:flex-row">
         <div className="flex flex-col items-center justify-center px-4 py-14 md:p-4 ">

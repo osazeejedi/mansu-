@@ -8,7 +8,7 @@ const PartnershipHero = () => {
       style={{
         backgroundImage: `url(/assets/images/partnership/partnership-hero.png)`,
       }}
-      className="min-h-[450px] bg-black text-white flex flex-col items-center justify-center bg-center bg-cover bg-no-repeat"
+      className="min-h-[450px] bg-[#5f0124] text-white flex flex-col items-center justify-center bg-center bg-cover bg-no-repeat"
     >
       <div className="container mx-auto p-4 flex flex-col">
         <Reveal className="w-full md:w-2/3 lg:1/2">

@@ -8,7 +8,7 @@ const ServicesHero = () => {
       style={{
         backgroundImage: `url(/assets/images/services/service-hero.png`,
       }}
-      className="min-h-[450px] bg-black text-white flex flex-col items-center justify-center bg-center bg-cover bg-no-repeat"
+      className="min-h-[450px] bg-[#39140f] text-white flex flex-col items-center justify-center bg-center bg-cover bg-no-repeat"
     >
       <div className="container mx-auto p-4 flex flex-col">
         <div className="w-full md:w-2/3 lg:1/2">
