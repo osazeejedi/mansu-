@@ -1,8 +1,9 @@
+import { Reveal } from "@/app/components/ui/Reveal";
 import React from "react";
 
 const SoftwareDevelopment = () => {
   return (
-    <div className="container mx-auto">
+    <Reveal className="container mx-auto">
       <div
         style={{
           backgroundImage: `url(/assets/images/services/software-dev-bg.png)`,
@@ -24,7 +25,7 @@ const SoftwareDevelopment = () => {
           </p>
         </div>
       </div>
-    </div>
+    </Reveal>
   );
 };
 

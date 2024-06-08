@@ -1,3 +1,4 @@
+import { Reveal } from "@/app/components/ui/Reveal";
 import Image from "next/image";
 import React from "react";
 
@@ -25,7 +26,7 @@ const ServicesItems = () => {
             height={300}
             className="mb-20 lg:mb-24"
           />
-          <div className="p-8">
+          <Reveal className="p-8">
             <h4 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-5">
               Business Strategy Consulting
             </h4>
@@ -36,7 +37,7 @@ const ServicesItems = () => {
               clients to understand their business and market landscape and
               provide actionable recommendations to help them succeed.
             </p>
-          </div>
+          </Reveal>
         </div>
 
         <div className=" bg-gradient-to-br from-[#EF1746] via-[#7C2B8A] to-[#3C1651] rounded-xl text-white">
@@ -47,7 +48,7 @@ const ServicesItems = () => {
             height={200}
             className="mb-20 mix-blend-multiply lg:mb-24 "
           />
-          <div className="p-8 h-full">
+          <Reveal className="p-8 h-full">
             <h4 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-5">
               Financial Planning and Management
             </h4>
@@ -59,7 +60,7 @@ const ServicesItems = () => {
               maximize profitability. Our goal is to help our clients make smart
               financial decisions that support their long-term growth.
             </p>
-          </div>
+          </Reveal>
         </div>
       </div>
     </div>

@@ -7,10 +7,10 @@ import { Autoplay } from "swiper/modules";
 const TrustedPartners = () => {
   const swiperBreakpoints = {
     350: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     576: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     768: {
       slidesPerView: 2,
@@ -36,7 +36,6 @@ const TrustedPartners = () => {
             delay: 0,
           }}
           modules={[Autoplay]}
-          onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
             <h4 className="font-medium md:text-xl">

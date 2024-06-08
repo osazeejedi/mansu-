@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 const quickLinksItems = [
-  { id: 1, text: "Company", href: "/" },
+  { id: 1, text: "Company", href: "about" },
   { id: 2, text: "Partnership", href: "partnership" },
   { id: 3, text: "Our Services", href: "our-services" },
   { id: 4, text: "Contact Us", href: "contact-us" },
@@ -12,7 +12,7 @@ const homeItems = [
   { id: 1, text: "Terms and Condition", href: "#" },
   { id: 2, text: "Privacy Policy", href: "#" },
   { id: 3, text: "Partnership", href: "partnership" },
-  { id: 4, text: "Info@mansu.io", href: "mailto:Info@mansu.io" },
+  { id: 4, text: "Info@mansu.io", href: "mailto:info@mansu.io" },
 ];
 
 const Footer = () => {

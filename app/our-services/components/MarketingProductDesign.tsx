@@ -1,3 +1,4 @@
+import { Reveal } from "@/app/components/ui/Reveal";
 import Image from "next/image";
 import React from "react";
 
@@ -12,7 +13,7 @@ const MarketingProductDesign = () => {
           height={200}
           className="mb-20 mix-blend-multiply lg:mb-24 "
         />
-        <div className="p-8">
+        <Reveal className="p-8">
           <h4 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-5">
             Marketing
           </h4>
@@ -24,7 +25,7 @@ const MarketingProductDesign = () => {
             to help our clients increase their visibility and drive more traffic
             to their websites or app.
           </p>
-        </div>
+        </Reveal>
       </div>
 
       <div className="bg-grey-medium rounded-xl h-full flex flex-col justify-between">
@@ -35,7 +36,7 @@ const MarketingProductDesign = () => {
           height={300}
           className="mb-20 lg:mb-24"
         />
-        <div className="p-8">
+        <Reveal className="p-8">
           <h4 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-5">
             Product Design and Development
           </h4>
@@ -48,7 +49,7 @@ const MarketingProductDesign = () => {
             methodologies to ensure that the product is delivered on time and
             within budget.
           </p>
-        </div>
+        </Reveal>
       </div>
     </div>
   );

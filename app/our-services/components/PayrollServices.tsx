@@ -1,4 +1,5 @@
 import AssemblyClusterIcon from "@/app/components/Icons/AssemblyClusterIcon";
+import { Reveal } from "@/app/components/ui/Reveal";
 import Image from "next/image";
 import React from "react";
 
@@ -11,7 +12,7 @@ const PayrollServices = () => {
         }}
         className="min-h-[450px] bg-black mt-14 text-white flex flex-col items-center justify-center bg-center bg-cover bg-no-repeat"
       >
-        <div className="container mx-auto p-4 text-center">
+        <Reveal className="container mx-auto p-4 text-center">
           <h4 className="text-2xl md:text-5xl font-semibold mb-3">
             Payroll Services
           </h4>
@@ -23,7 +24,7 @@ const PayrollServices = () => {
             up-to-date on the latest payroll laws and regulations, ensuring that
             our clients remain compliant with all relevant requirements.
           </p>
-        </div>
+        </Reveal>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-6 mt-10">
@@ -35,7 +36,7 @@ const PayrollServices = () => {
             height={150}
           />
 
-          <div className="p-8">
+          <Reveal className="p-8">
             <h3 className="text-2xl md:text-5xl font-semibold mb-4">
               Human Resources Consulting
             </h3>
@@ -47,7 +48,7 @@ const PayrollServices = () => {
               help our clients build a strong, motivated team that supports
               their business objectives.
             </p>
-          </div>
+          </Reveal>
         </div>
         <div className="bg-grey-medium rounded-xl flex flex-col justify-between gap-10 min-h-[450px] ml-4 md:ml-0 overflow-hidden">
           <div className="relative flex justify-end">
@@ -59,7 +60,7 @@ const PayrollServices = () => {
               className="rotate-90 absolute -top-6"
             />
           </div>
-          <div className="p-8">
+          <Reveal className="p-8">
             <h3 className="text-2xl md:text-5xl font-semibold mb-4">
               FX and Payment Processing Consultancy Services
             </h3>
@@ -69,11 +70,11 @@ const PayrollServices = () => {
               Banks, Foreign Exchange Brokers, Payment Solutions and Electronic
               Money Institutions.
             </p>
-          </div>
+          </Reveal>
         </div>
       </div>
 
-      <div className="container mx-auto flex flex-col md:items-center p-4 mt-14 md:mt-20 space-y-5 mb-24">
+      <Reveal className="container mx-auto flex flex-col md:items-center p-4 mt-14 md:mt-20 space-y-5 mb-24">
         <AssemblyClusterIcon />
         <h3 className="text-2xl md:text-5xl font-semibold">
           Procurement Services
@@ -89,7 +90,7 @@ const PayrollServices = () => {
           procurement management and achieve your business objectives with
           confidence.
         </p>
-      </div>
+      </Reveal>
     </div>
   );
 };

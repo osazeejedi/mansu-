@@ -14,7 +14,7 @@ const AssemblyClusterIcon = () => {
         height="32"
         transform="translate(0 0.5)"
         fill="white"
-        fill-opacity="0.01"
+        fillOpacity="0.01"
         style={{ mixBlendMode: "multiply" }}
       />
       <path

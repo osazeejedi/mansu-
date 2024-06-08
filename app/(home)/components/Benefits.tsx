@@ -20,7 +20,7 @@ const benefitsItems = [
       "At Mansu, we take a collaborative approach to consultancy. We believe that the best solutions come from working closely with our clients to understand their unique challenges.",
   },
   {
-    id: 1,
+    id: 3,
     Icon: AssemblyClusterIcon,
     title: "What you’ll get",
     description:
