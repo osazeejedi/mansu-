@@ -74,23 +74,25 @@ const PayrollServices = () => {
         </div>
       </div>
 
-      <Reveal className="container mx-auto flex flex-col md:items-center p-4 mt-14 md:mt-20 space-y-5 mb-24">
-        <AssemblyClusterIcon />
-        <h3 className="text-2xl md:text-5xl font-semibold">
-          Procurement Services
-        </h3>
-        <p className="md:text-center">
-          At Mansu, we offer comprehensive procurement services to streamline
-          your supply chain and optimize sourcing processes. Our experienced
-          team specializes in sourcing high-quality materials, negotiating
-          favorable terms with suppliers, and ensuring timely delivery of goods.
-          Whether you&apos;re looking to reduce costs, mitigate risks, or
-          improve operational efficiency, our tailored procurement solutions are
-          designed to meet your unique needs. Partner with Mansu for seamless
-          procurement management and achieve your business objectives with
-          confidence.
-        </p>
-      </Reveal>
+      <div className="container mx-auto">
+        <Reveal className=" flex flex-col md:items-center p-4 mt-14 md:mt-20 space-y-5 mb-24">
+          <AssemblyClusterIcon />
+          <h3 className="text-2xl md:text-5xl font-semibold">
+            Procurement Services
+          </h3>
+          <p className="md:text-center">
+            At Mansu, we offer comprehensive procurement services to streamline
+            your supply chain and optimize sourcing processes. Our experienced
+            team specializes in sourcing high-quality materials, negotiating
+            favorable terms with suppliers, and ensuring timely delivery of
+            goods. Whether you&apos;re looking to reduce costs, mitigate risks,
+            or improve operational efficiency, our tailored procurement
+            solutions are designed to meet your unique needs. Partner with Mansu
+            for seamless procurement management and achieve your business
+            objectives with confidence.
+          </p>
+        </Reveal>
+      </div>
     </div>
   );
 };
