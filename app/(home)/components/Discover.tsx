@@ -11,13 +11,14 @@ const Discover = () => {
         <div className="px-4 sm:w-4/5 md:w-2/3 mx-auto h-[500px] flex flex-col justify-center space-y-6">
           <Reveal>
             <h3 className="font-medium text-2xl sm:text-3xl lg:text-5xl">
-              Mansu is so much more
+              Why work with Mansu
             </h3>
           </Reveal>
           <p>
-            At Mansu, we take a collaborative approach to consultancy. We
-            believe that the best solutions come from working closely with our
-            clients to understand their unique challenges and goals.
+            Choosing the right partner for your business is crucial to achieving
+            sustainable growth and long-term success. At Mansu, we go beyond the
+            traditional advisory role by becoming a true partner in your
+            journey. Here’s why you should consider working with us:
           </p>
 
           <Button className="w-fit" variant="white">
@@ -27,22 +28,22 @@ const Discover = () => {
       </div>
       <div className="h-[500px]  bg-pink-dark flex flex-col justify-between px-4 py-8 overflow-hidden">
         <AssemblyIcon fill="#fff" />
-        <Reveal className="text-2xl  w-1/3 font-medium">
-          Payroll Services
+        <Reveal className="text-2xl  w-4/5 font-medium">
+          Our Commitment to Client Success
         </Reveal>
         <MultipleXIcons />
       </div>
       <div className="h-[500px] bg-pink-light flex flex-col justify-between px-4 py-8 overflow-hidden">
         <AssemblyIcon fill="#fff" />
-        <Reveal className="text-2xl w-1/3 font-medium">
-          Human Resources Consulting
+        <Reveal className="text-2xl w-2/3 font-medium">
+          Deep Industry Experience
         </Reveal>
         <MultipleXIcons />
       </div>
       <div className="h-[500px] bg-pink flex flex-col justify-between px-4 py-8 overflow-hidden">
         <AssemblyIcon fill="#fff" />
-        <Reveal className="text-2xl  w-1/3 font-medium">
-          Marketing Services
+        <Reveal className="text-2xl  w-2/3 font-medium">
+          Results-Oriented Approach
         </Reveal>
         <MultipleXIcons />
       </div>

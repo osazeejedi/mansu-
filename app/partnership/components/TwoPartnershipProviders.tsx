@@ -18,12 +18,12 @@ const TwoPartnershipProviders = () => {
         />
         <div className="p-8">
           <h4 className="text-2xl md:text-5xl font-semibold mb-5">
-            Service Providers
+            Non-profit organizations
           </h4>
           <p className="md:text-xl lg:w-4/5">
-            We partner with service providers to offer our clients a
-            comprehensive range of services. Our partners include companies that
-            provide everything from accounting to legal services to marketing.
+            Mansu opens its doors to non-profit organizations driving impact
+            helping them streamline their operations and activities to better
+            serve the communities they operate in.
           </p>
         </div>
       </Reveal>
@@ -37,10 +37,9 @@ const TwoPartnershipProviders = () => {
             Venture Capital Firms
           </h4>
           <p className="md:text-xl">
-            We partner with venture capital firms to help their portfolio
-            companies achieve their goals. Our consultancy services can help
-            businesses identify areas for improvement and develop strategies to
-            maximize their potential.
+            With our extensive experience and reach in the global capital
+            markets, we partner with global investors to match them with
+            thriving investment opportunities in emerging markets.
           </p>
         </div>
         <div>

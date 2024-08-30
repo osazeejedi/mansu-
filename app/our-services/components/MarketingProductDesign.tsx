@@ -15,15 +15,13 @@ const MarketingProductDesign = () => {
         />
         <Reveal className="p-8">
           <h4 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-5">
-            Marketing
+            FX Consulting
           </h4>
           <p>
-            Our marketing services help businesses build their brand and reach
-            their target audience. We work with our clients to develop
-            comprehensive marketing strategies that include everything from
-            social media to content marketing to paid advertising. Our goal is
-            to help our clients increase their visibility and drive more traffic
-            to their websites or app.
+            Mansu provides a bespoke consultancy service to help bridge the gap
+            for businesses by introducing and partnering our clients with Banks,
+            Foreign Exchange Brokers, Payment Solutions and Electronic Money
+            Institutions.
           </p>
         </Reveal>
       </div>
@@ -38,16 +36,15 @@ const MarketingProductDesign = () => {
         />
         <Reveal className="p-8">
           <h4 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-5">
-            Product Design and Development
+            Human Resource Management and Payroll Services
           </h4>
           <p>
-            Our product design and development services are designed to help
-            businesses create products that meet the needs of their target
-            audience. We work closely with our clients to understand their users
-            and develop products that are user-friendly, intuitive, and
-            effective. Our team of designers and developers use agile
-            methodologies to ensure that the product is delivered on time and
-            within budget.
+            Our payroll services are designed to help businesses manage their
+            payroll and compliance obligations. We provide end-to-end payroll
+            processing services, including payroll calculations, tax
+            withholdings, and payments. Our team of payroll experts stays
+            up-to-date on the latest payroll laws and regulations, ensuring that
+            our clients remain compliant with all relevant requirements.
           </p>
         </Reveal>
       </div>

@@ -7,10 +7,10 @@ const ServicesItems = () => {
     <div className="container mx-auto p-4 mt-24">
       <div className="grid grid-cols-1 md:grid-cols-3 pb-8 mb-10 border-b border-black">
         <p className="col-span-2 text-2xl">
-          At Mansu, we offer a range of services to help tech start-ups and
-          start-ups in general succeed. Our experienced team of consultants
-          works closely with our clients to understand their unique needs and
-          provide tailored solutions that meet their goals.
+          At Mansu, we pride ourselves on offering a comprehensive suite of
+          services designed to meet the diverse needs of our clients. With a
+          global reach and deep industry expertise, we deliver tailored
+          solutions that drive sustainable growth and success.
         </p>
         <p className="col-span-1 hidden md:flex justify-end items-end uppercase text-black/50">
           Our Services
@@ -28,14 +28,13 @@ const ServicesItems = () => {
           />
           <Reveal className="p-8">
             <h4 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-5">
-              Business Strategy Consulting
+              Research
             </h4>
             <p>
-              Our business strategy consulting services are designed to help
-              businesses identify opportunities for growth and develop effective
-              strategies to achieve their goals. We work closely with our
-              clients to understand their business and market landscape and
-              provide actionable recommendations to help them succeed.
+              Global Network, Tailored Solutions: Our geographically diverse
+              team of professionals offers unparalleled research capabilities
+              across various industries. We transform this expertise into
+              actionable insights that directly impact your bottom line.
             </p>
           </Reveal>
         </div>
@@ -50,15 +49,13 @@ const ServicesItems = () => {
           />
           <Reveal className="p-8 h-full">
             <h4 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-5">
-              Financial Planning and Management
+              Procurement
             </h4>
             <p>
-              Our financial planning and management services help businesses
-              manage their finances and make informed decisions about their
-              business. We work closely with our clients to develop financial
-              projections, analyze financial data, and develop strategies to
-              maximize profitability. Our goal is to help our clients make smart
-              financial decisions that support their long-term growth.
+              With our global reach and extensive network, we provide
+              comprehensive procurement services from start to finish. Whether
+              you need advisory and introductions or assistance with delivery
+              and settlement, Mansu has you covered.
             </p>
           </Reveal>
         </div>

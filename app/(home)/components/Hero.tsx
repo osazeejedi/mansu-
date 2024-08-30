@@ -23,11 +23,12 @@ const Hero = () => {
         <div className="flex flex-col items-center justify-center px-4 pt-14 md:py-14 md:px-4 md:w-4/5 lg:w-2/3">
           <Reveal>
             <h2 className="text-3xl md:text-5xl xl:text-6xl w-full xl:w-4/5 mb-3 font-medium">
-              Expert Guidance for Business Success
+              Expertise that drives results
             </h2>
             <p className="text-secondary w-4/5 mb-3">
-              Mansu provides tailored consultancy services to help businesses
-              grow and thrive
+              We help businesses excel by tackling profitability challenges. As
+              an extension of your team, we understand your vision and use our
+              experience to streamline operations and maximize your potential.
             </p>
             <Button className="w-fit">Get Started</Button>
           </Reveal>

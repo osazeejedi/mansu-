@@ -14,11 +14,18 @@ const OurStory = () => {
 
           <h3 className="font-bold uppercase text-4xl">Our Story</h3>
           <p className="font-medium text-xl text-center w-4/5">
-            Mansu.io was founded in 2022 by Anthony Graham, who recognized the
-            need for a consultancy business that specializes in helping tech
-            start-ups and start-ups in general succeed. Since then, we have
-            worked with numerous start-ups, providing expert guidance and
-            support throughout their growth journey.
+            Building successful businesses, from a domestic engineering firm to
+            a football academy, taught me that significant challenges often lie
+            beyond the core product or service. These ventures exposed me to
+            various obstacles, including operations management, financial
+            oversight, marketing strategies, and regulatory navigation. My
+            passion for overcoming these hurdles, along with the insights
+            gained, inspired me to create Mansu. We leverage this expertise to
+            help businesses of all sizes tackle unique challenges through
+            tailored, strategic solutions that enable sustainable growth and
+            long-term success. At Mansu, we strive to be more than just
+            consultants; we aim to be trusted partners in your business journey,
+            dedicated to supporting you every step of the way.
           </p>
 
           <div className="relative z-10 px-4 aspect-video w-full h-full">
@@ -88,13 +95,12 @@ const OurStory = () => {
                 Our <span className="block">Approach</span>
               </h4>
               <p className="md:text-xl font-medium">
-                At Mansu.io, we take a collaborative approach to consultancy. We
-                believe that the best solutions come from working closely with
-                our clients to understand their unique challenges and goals. We
-                provide a range of services, including business strategy,
-                software development, marketing, and payroll solutions, and
-                specialize in research and Intelligence for tech companies, to
-                help them succeed.
+                At Mansu, excellence is not just a goal; it is the foundation of
+                our operations and a core principle guiding every aspect of our
+                work. We are meticulous in our approach, ensuring that no detail
+                is overlooked. Our commitment to excellence drives us to take a
+                deep dive into each client{`'`}s unique needs and challenges,
+                allowing us to identify opportunities that others may miss.
               </p>
             </div>
           </div>

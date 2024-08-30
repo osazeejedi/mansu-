@@ -15,10 +15,28 @@ const AboutHero = () => {
             About Mansu
           </Reveal>
           <p className="md:w-3/5 mb-3">
-            Welcome to Mansu.io, a consultancy business that provides expert
-            guidance and resources to help tech start-ups succeed. Our team of
-            experienced consultants is dedicated to helping new businesses
-            navigate the challenges of the start-up industry with confidence.
+            At Mansu, excellence is not just a goal; it is the foundation of
+            everything we do. We are meticulous in our approach, taking the time
+            to thoroughly understand each client{`'`}s unique needs, challenges,
+            and goals. By conducting a deep dive analysis, we identify untapped
+            opportunities and craft tailored strategies that optimize
+            performance and drive growth.
+          </p>
+          <p className="md:w-3/5 mb-3">
+            Our holistic perspective goes beyond conventional solutions. We
+            treat every client as a unique investment, carefully considering
+            their long-term potential and sustainability. We focus on building
+            enduring relationships and delivering value that lasts. Our
+            commitment to excellence means that we don{`'`}t just aim for
+            immediate results; we strive for sustainable success that grows over
+            time, ensuring our clients thrive in a constantly evolving market
+            landscape.
+          </p>
+          <p className="md:w-3/5 mb-3">
+            Through this dedication to a comprehensive and personalized
+            approach, Mansu positions itself as more than just a service
+            provider—we become a strategic partner committed to your long-term
+            growth and prosperity.
           </p>
           <Link className="mt-5" href="our-services">
             <Button variant="outline" className="w-fit">

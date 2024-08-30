@@ -14,24 +14,24 @@ const PartnershipTypes = () => {
       </h6>
 
       <Reveal className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-8 border-black border-y py-10">
-        <h4 className="font-semibold text-2xl md:text-4xl">
-          Incubators and Accelerators
-        </h4>
+        <h4 className="font-semibold text-2xl md:text-4xl">Trade unions</h4>
         <p className="lg:col-span-2">
-          We partner with incubators and accelerators to provide businesses with
-          the resources they need to succeed. Our consultancy services
-          complement the services provided by these organizations, helping
-          start-ups develop effective strategies for growth.
+          We are open to partner with trade unions, communities, and
+          associations and empower them with the tools, resources, and
+          knowledge-base to grow their businesses and compete at the global
+          scale.
         </p>
       </Reveal>
 
       <Reveal className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-8 border-black border-b pb-10">
-        <h4 className="font-semibold text-2xl md:text-4xl">Industry Experts</h4>
+        <h4 className="font-semibold text-2xl md:text-4xl">
+          Technology and innovation partners
+        </h4>
         <p className="lg:col-span-2">
-          We partner with industry experts to provide our clients with
-          specialized knowledge and expertise. Our network of experts includes
-          individuals with expertise in a wide range of industries, from
-          technology to healthcare to finance.
+          We partner with technology and innovation hubs where we provide deep
+          expertise and support to emerging technology companies and innovation
+          hubs such as incubators and accelerators transforming next generation
+          businesses and solutions.
         </p>
       </Reveal>
 
