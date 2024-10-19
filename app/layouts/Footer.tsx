@@ -55,9 +55,9 @@ const Footer = () => {
               <p className="text-sm text-grey">
                 5-7 Turnbull Road, Ikoyi Lagos, Nigeria
               </p>
-              <p className="text-sm text-grey">
+              {/* <p className="text-sm text-grey">
                 Building 3 North London Business Park Oakleigh Road South London
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

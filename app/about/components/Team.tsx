@@ -32,15 +32,15 @@ const Team = () => {
           </div>
         </Reveal>
 
-        <Reveal className="!w-full h-full">
-          {/* <Image
+        {/* <Reveal className="!w-full h-full">
+           <Image
             quality={100}
             src="/assets/images/about/timilehin.png"
             alt="timilehin"
             width={200}
             height={250}
             className="object-contain w-full"
-          /> */}
+          /> 
           <h6 className="font-bold lg:text-2xl my-3">Timilehin Omoboboye</h6>
           <div className="flex items-center justify-between gap-5 w-full">
             <p className="font-medium text-sm">
@@ -48,7 +48,7 @@ const Team = () => {
             </p>
             <LinkedinIcon />
           </div>
-        </Reveal>
+        </Reveal> */}
         <Button className="md:hidden mx-auto mt-10 w-fit">Join Team</Button>
       </div>
     </div>

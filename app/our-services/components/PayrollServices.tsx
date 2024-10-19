@@ -28,7 +28,7 @@ const PayrollServices = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-6 mt-10">
-        <div className="bg-grey-medium rounded-xl flex flex-col justify-between mr-4 md:mr-0">
+        <div className="bg-grey-medium rounded-xl flex flex-col justify-between">
           <Image
             src="/assets/images/services/vector-bg.png"
             alt="vector-bg"
@@ -50,7 +50,7 @@ const PayrollServices = () => {
             </p>
           </Reveal>
         </div>
-        <div className="bg-grey-medium rounded-xl flex flex-col justify-between gap-10 min-h-[450px] ml-4 md:ml-0 overflow-hidden">
+        <div className="bg-grey-medium rounded-xl flex flex-col justify-between gap-10 min-h-[450px]  ml-0 overflow-hidden">
           <div className="relative flex justify-end">
             <Image
               src="/assets/images/services/vector-bg.png"
@@ -60,15 +60,18 @@ const PayrollServices = () => {
               className="rotate-90 absolute -top-6"
             />
           </div>
-          <Reveal className="p-8">
+          <Reveal className="p-8 ">
             <h3 className="text-2xl md:text-5xl font-semibold mb-4">
               FX and Payment Processing Consultancy Services
             </h3>
             <p>
-              Mansu provides a bespoke consultancy service to help bridge the
-              gap for businesses by introducing and partnering our clients with
-              Banks, Foreign Exchange Brokers, Payment Solutions and Electronic
-              Money Institutions.
+              We connect clients with reliable foreign exchange providers and
+              payment solutions, enabling them to secure competitive rates and
+              facilitate smooth transactions. While we facilitate these
+              connections, all payments are processed directly{" "}
+              <strong>by the financial partners</strong>, ensuring a seamless
+              experience. This approach allows businesses to concentrate on
+              their core operations with confidence
             </p>
           </Reveal>
         </div>
@@ -77,10 +80,10 @@ const PayrollServices = () => {
       <div className="container mx-auto">
         <Reveal className=" flex flex-col md:items-center p-4 mt-14 md:mt-20 space-y-5 mb-24">
           <AssemblyClusterIcon />
-          <h3 className="text-2xl md:text-5xl font-semibold">
+          <h3 className="text-4xl md:text-7xl font-semibold">
             Procurement Services
           </h3>
-          <p className="md:text-center">
+          <p className="md:text-center text-xl">
             At Mansu, we offer comprehensive procurement services to streamline
             your supply chain and optimize sourcing processes. Our experienced
             team specializes in sourcing high-quality materials, negotiating

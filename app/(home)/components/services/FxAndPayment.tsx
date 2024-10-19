@@ -47,7 +47,7 @@ const FxAndPayment = () => {
       </div>
       <div className="px-4 md:px-6 lg:px-4 lg:w-1/2 order-first lg:order-last">
         <Reveal className="text-2xl md:text-4xl font-medium mb-5">
-          FX and Payment Processing Consultancy Services
+          Forex Deal Facilitator and Consultancy
         </Reveal>
 
         <div className="space-y-4">

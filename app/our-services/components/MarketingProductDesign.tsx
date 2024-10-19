@@ -18,10 +18,13 @@ const MarketingProductDesign = () => {
             FX Consulting
           </h4>
           <p>
-            Mansu provides a bespoke consultancy service to help bridge the gap
-            for businesses by introducing and partnering our clients with Banks,
-            Foreign Exchange Brokers, Payment Solutions and Electronic Money
-            Institutions.
+            We connect clients with reliable foreign exchange providers and
+            payment solutions, enabling them to secure competitive rates and
+            facilitate smooth transactions. While we facilitate these
+            connections, all payments are processed directly{" "}
+            <strong>by the financial partners</strong>, ensuring a seamless
+            experience. This approach allows businesses to concentrate on their
+            core operations with confidence
           </p>
         </Reveal>
       </div>
