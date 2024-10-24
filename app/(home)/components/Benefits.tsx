@@ -53,7 +53,7 @@ const Benefits = () => {
         </h3>
       </Reveal>
 
-      <div className="grid grid-col-1 md:grid-cols-3 mt-10 gap-8 space-y-4 place-content-center place-items-center justify-around md:divide-x ">
+      <div className="grid grid-col-1 md:grid-cols-3 mt-10 gap-8 space-y-4 md:place-items-center md:divide-x ">
         {benefitsItems.map(({ id, Icon, title, items, description }) => (
           <Reveal key={id} className="!first:pl-0 pl-0 md:!pl-8">
             <Icon />

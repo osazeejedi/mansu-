@@ -26,21 +26,21 @@ const Discover = () => {
           </Button>
         </div>
       </div>
-      <div className="h-[500px]  bg-pink-dark flex flex-col justify-between px-4 py-8 overflow-hidden">
+      <div className="h-[500px] hidden  md:flex flex-col justify-between bg-pink-dark px-4 py-8 overflow-hidden">
         <AssemblyIcon fill="#fff" />
         <Reveal className="text-2xl  w-4/5 font-medium">
           Our Commitment to Client Success
         </Reveal>
         <MultipleXIcons />
       </div>
-      <div className="h-[500px] bg-pink-light flex flex-col justify-between px-4 py-8 overflow-hidden">
+      <div className="h-[500px] bg-pink-light hidden md:flex flex-col justify-between px-4 py-8 overflow-hidden">
         <AssemblyIcon fill="#fff" />
         <Reveal className="text-2xl w-2/3 font-medium">
           Deep Industry Experience
         </Reveal>
         <MultipleXIcons />
       </div>
-      <div className="h-[500px] bg-pink flex flex-col justify-between px-4 py-8 overflow-hidden">
+      <div className="h-[500px] bg-pink hidden md:flex flex-col justify-between px-4 py-8 overflow-hidden">
         <AssemblyIcon fill="#fff" />
         <Reveal className="text-2xl  w-2/3 font-medium">
           Results-Oriented Approach
