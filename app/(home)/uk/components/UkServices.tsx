@@ -1,4 +1,7 @@
 import React from "react";
+import FxAndPayment from "./services/FxAndPayment";
+import BusinessStrategy from "./services/BusinessStrategy";
+import MarketingServices from "./services/MarketingServices";
 
 const UkServices = () => {
   return (
@@ -12,9 +15,9 @@ const UkServices = () => {
       </p>
 
       <div>
-        {/* <BusinessStrategy />
-	<FxAndPayment />
-	<MarketingServices /> */}
+        <BusinessStrategy />
+        <FxAndPayment />
+        <MarketingServices />
       </div>
     </div>
   );

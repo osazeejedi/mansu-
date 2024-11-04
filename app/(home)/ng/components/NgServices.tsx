@@ -1,4 +1,7 @@
 import React from "react";
+import BusinessStrategy from "./services/BusinessStrategy";
+import FxAndPayment from "./services/FxAndPayment";
+import MarketingServices from "./services/MarketingServices";
 
 const NgServices = () => {
   return (
@@ -12,9 +15,9 @@ const NgServices = () => {
       </p>
 
       <div>
-        {/* <BusinessStrategy />
-  <FxAndPayment />
-  <MarketingServices /> */}
+        <BusinessStrategy />
+        <FxAndPayment />
+        <MarketingServices />
       </div>
     </div>
   );
