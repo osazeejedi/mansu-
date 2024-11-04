@@ -28,8 +28,8 @@ const TrustedPartners = () => {
     <div className="bg-primary text-white">
       <div className="py-4">
         <Swiper
-          spaceBetween={10}
-          slidesPerView={2}
+          // spaceBetween={10}
+          slidesPerView={4}
           loop={true}
           breakpoints={swiperBreakpoints}
           speed={10000}
