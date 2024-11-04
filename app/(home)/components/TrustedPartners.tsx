@@ -3,6 +3,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
+import Image from "next/image";
 
 const TrustedPartners = () => {
   const swiperBreakpoints = {
@@ -25,9 +26,9 @@ const TrustedPartners = () => {
 
   return (
     <div className="bg-primary text-white">
-      <div className="py-6">
+      <div className="py-4">
         <Swiper
-          spaceBetween={20}
+          spaceBetween={10}
           slidesPerView={2}
           loop={true}
           breakpoints={swiperBreakpoints}
@@ -43,16 +44,32 @@ const TrustedPartners = () => {
             </h4>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/images/home/partners/techstars.png" />
+            <img
+              className="h-8"
+              alt="fincra-logo"
+              src="/assets/images/home/partners/fincra-logo.png"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/images/home/partners/techstars.png" />
+            <img
+              className="h-8"
+              src="/assets/images/home/partners/BetKing.jpg"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/images/home/partners/techstars.png" />
+            <img
+              className="h-8"
+              src="/assets/images/home/partners/decadent_logo.jpeg"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/images/home/partners/techstars.png" />
+            <img
+              className="h-8"
+              src="/assets/images/home/partners/oapay_logo.jpeg"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src="/assets/images/home/partners/oa_logo.svg" />
           </SwiperSlide>
         </Swiper>
       </div>
