@@ -4,7 +4,7 @@ export const middleware = async (req: NextRequest) => {
   const allowedPaths = ["/about", "/partnership", "/our-services", "/contact-us"];
   const currentPath = req.nextUrl.pathname;
 
-  // Allow certain paths without redirection
+  // need to allow certain paths without redirection
   if (allowedPaths.includes(currentPath)) {
     return NextResponse.next();
   }
