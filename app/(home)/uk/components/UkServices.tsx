@@ -15,8 +15,8 @@ const UkServices = () => {
       </p>
 
       <div>
-        <BusinessStrategy />
         <FxAndPayment />
+        <BusinessStrategy />
         <MarketingServices />
       </div>
     </div>

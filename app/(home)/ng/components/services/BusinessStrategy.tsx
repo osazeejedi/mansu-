@@ -20,7 +20,7 @@ const BusinessStrategyItems = [
 
 const BusinessStrategy = () => {
   return (
-    <div className="bg-background flex flex-col lg:flex-row items-center justify-between gap-0 lg:gap-10 pt-10 lg:pt-0 px-4 md:px-6 mt-10">
+    <div className="bg-background flex flex-col lg:flex-row items-center gap-0 lg:gap-4 pt-10 lg:pt-0 px-8 md:px-28 mt-10">
       <div className="self-start lg:self-auto">
         <Reveal className="text-2xl md:text-4xl font-medium mb-5">
           Competitive Exchange Rates
@@ -28,7 +28,7 @@ const BusinessStrategy = () => {
 
         <div className="space-y-4">
           <Reveal className="flex items-start gap-2">
-            <p className="text-sm w-4/5">
+            <p className="text-sm w-4/5 leading-6">
               Our competitive rates maximize value for both personal remittances
               and business transactions.
             </p>

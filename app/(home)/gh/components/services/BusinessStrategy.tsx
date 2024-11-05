@@ -20,15 +20,15 @@ const BusinessStrategyItems = [
 
 const BusinessStrategy = () => {
   return (
-    <div className="bg-background flex flex-col lg:flex-row items-center justify-between gap-0 lg:gap-10 pt-10 lg:pt-0 px-4 md:px-6 mt-10">
-      <div className="self-start lg:self-auto">
+    <div className="bg-background flex flex-col lg:flex-row items-center gap-0 lg:gap-10 pt-10 lg:pt-0 px-8 md:px-14 mt-10">
+      <div className="self-start lg:self-auto lg:w-1/2">
         <Reveal className="text-2xl md:text-4xl font-medium mb-5">
           Financial Consultancy and FX Strategies
         </Reveal>
 
         <div className="space-y-4">
           <Reveal className="flex items-start gap-2">
-            <p className="text-sm w-4/5">
+            <p className="text-sm w-4/5 leading-6">
               We guide businesses on international funding, connecting them with
               financial partners to optimize costs and navigate cross-border
               transactions.
@@ -37,7 +37,7 @@ const BusinessStrategy = () => {
         </div>
       </div>
 
-      <Reveal className="hidden sm:block" position="right">
+      <Reveal className="hidden sm:block md:w-1/2" position="right">
         <div className="relative h-[400px] w-full sm:w-[400px]">
           <Image
             quality={100}

@@ -20,32 +20,11 @@ const MarketingServicesItems = [
 
 const MarketingServices = () => {
   return (
-    <div className="bg-background flex flex-col lg:flex-row items-center justify-between gap-0 lg:gap-10 pt-6 md:pt-14 lg:pt-0 px-4 md:px-6 mt-10">
-      <div className="self-start lg:self-auto">
-        <Reveal>
-          <h3 className="text-2xl md:text-4xl font-medium mb-5">
-            User-Friendly Platforms
-          </h3>
-        </Reveal>
-        <div className="space-y-4">
-          <Reveal>
-            <p className="text-sm w-4/5">
-              We utilize advanced technology for an easy and efficient money
-              transfer experience.
-            </p>
-          </Reveal>
-          {/* {MarketingServicesItems.map(({ item, id }) => (
-            <Reveal key={id} className="flex items-start gap-2">
-              <div className="bg-white p-1 rounded-full">
-                <MansuLogo />
-              </div>
-              <p>{item}</p>
-            </Reveal>
-          ))} */}
-        </div>
-      </div>
-
-      <Reveal className="hidden sm:block" position="right">
+    <div className="bg-background flex flex-col lg:flex-row items-center justify-between gap-0 lg:gap-10 pt-6 md:pt-14 lg:pt-0 px-8 md:px-14 mt-10">
+      <Reveal
+        className="hidden sm:block order-last lg:order-first"
+        position="right"
+      >
         <div className="relative h-[400px] w-full sm:w-[400px]">
           <Image
             quality={100}
@@ -67,6 +46,30 @@ const MarketingServices = () => {
           className="object-cover"
           fill
         />
+      </div>
+
+      <div className="self-start lg:self-auto w-full lg:w-1/2 order-first lg:order-last">
+        <Reveal>
+          <h3 className="text-2xl md:text-4xl font-medium mb-5">
+            User-Friendly Platforms
+          </h3>
+        </Reveal>
+        <div className="space-y-4">
+          <Reveal>
+            <p className="text-sm w-4/5 leading-6">
+              We utilize advanced technology for an easy and efficient money
+              transfer experience.
+            </p>
+          </Reveal>
+          {/* {MarketingServicesItems.map(({ item, id }) => (
+            <Reveal key={id} className="flex items-start gap-2">
+              <div className="bg-white p-1 rounded-full">
+                <MansuLogo />
+              </div>
+              <p>{item}</p>
+            </Reveal>
+          ))} */}
+        </div>
       </div>
     </div>
   );

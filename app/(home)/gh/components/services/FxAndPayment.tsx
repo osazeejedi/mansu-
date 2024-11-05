@@ -20,16 +20,16 @@ const fxPayments = [
 
 const FxAndPayment = () => {
   return (
-    <div className="bg-gradient-to-r from-primary to-[#5F0F2E] text-white flex flex-col lg:flex-row items-center justify-between gap-0 lg:gap-10 pt-14 lg:pt-0  mt-10">
+    <div className="bg-gradient-to-r from-primary to-[#5F0F2E] text-white flex flex-col lg:flex-row items-center justify-between gap-0 lg:gap-10 pt-14 lg:pt-0 px-8 md:px-14 py-10  mt-10">
       <Reveal
         position="left"
         className="hidden sm:block relative h-[400px] w-full sm:w-[400px] order-last lg:order-first"
       >
         <Image
           quality={100}
-          src="/assets/images/home/fxAndPayment.png"
+          src="/assets/images/home/gh_service_1.png"
           alt="fx and payment"
-          sizes="(min-width: 808px) 50vw, 100vw"
+          sizes="(min-width: 700px) 40vw, 80vw"
           className="object-cover"
           fill
         />
@@ -38,7 +38,7 @@ const FxAndPayment = () => {
       <div className="sm:hidden relative h-[400px] w-full sm:w-[400px]">
         <Image
           quality={100}
-          src="/assets/images/home/fxAndPayment.png"
+          src="/assets/images/home/gh_service_1.png"
           alt="fx and payment"
           sizes="(min-width: 808px) 50vw, 100vw"
           className="object-cover"
@@ -60,7 +60,7 @@ const FxAndPayment = () => {
             </Reveal>
           ))} */}
           <Reveal>
-            <p className="text-sm w-4/5">
+            <p className="text-sm w-4/5 leading-6">
               We connect clients with reputable suppliers, ensuring quality
               through customized procurement strategies.
             </p>

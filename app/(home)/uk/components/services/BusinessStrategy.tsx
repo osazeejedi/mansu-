@@ -20,7 +20,7 @@ const BusinessStrategyItems = [
 
 const BusinessStrategy = () => {
   return (
-    <div className="bg-background flex flex-col lg:flex-row items-center justify-between gap-0 lg:gap-10 pt-10 lg:pt-0 px-4 md:px-6 mt-10">
+    <div className="bg-background flex flex-col lg:flex-row items-center  gap-0 lg:gap-10 pt-10 py-4 lg:pt-0 px-8 md:px-14 mt-10">
       <div className="self-start lg:self-auto">
         <Reveal className="text-2xl md:text-4xl font-medium mb-5">
           Offshore Settlement Strategies
@@ -28,7 +28,7 @@ const BusinessStrategy = () => {
 
         <div className="space-y-4">
           <Reveal>
-            <p className="text-sm w-4/5">
+            <p className="text-sm w-4/5 leading-6">
               Our offshore settlement methods ensure smooth financial
               transactions, enhancing flexibility and cost-efficiency.
             </p>
@@ -44,11 +44,12 @@ const BusinessStrategy = () => {
         </div>
       </div>
 
+      {/* <div className="w-full md:w-1/3"> */}
       <Reveal className="hidden sm:block" position="right">
         <div className="relative h-[400px] w-full sm:w-[400px]">
           <Image
             quality={100}
-            src={"/assets/images/home/Business-strategy-img.png"}
+            src={"/assets/images/home/uk_service_2.png"}
             alt="Business Strategy"
             sizes="(min-width: 808px) 50vw, 100vw"
             className="object-cover"
@@ -59,13 +60,14 @@ const BusinessStrategy = () => {
       <div className="sm:hidden relative h-[400px] w-full sm:w-[400px]">
         <Image
           quality={100}
-          src={"/assets/images/home/Business-strategy-img.png"}
+          src={"/assets/images/home/uk_service_2.png"}
           alt="Business Strategy"
           sizes="(min-width: 808px) 50vw, 100vw"
           className="object-cover"
           fill
         />
       </div>
+      {/* </div> */}
     </div>
   );
 };

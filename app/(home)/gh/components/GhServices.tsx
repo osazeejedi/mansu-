@@ -15,8 +15,8 @@ const GhServices = () => {
       </p>
 
       <div>
-        <BusinessStrategy />
         <FxAndPayment />
+        <BusinessStrategy />
         <MarketingServices />
       </div>
     </div>

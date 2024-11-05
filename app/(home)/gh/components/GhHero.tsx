@@ -21,9 +21,9 @@ const GhHero = () => {
       className="relative text-white flex flex-col justify-center items-center md:h-[550px] bg-black bg-center bg-cover bg-no-repeat"
     >
       <div className="container mx-auto flex flex-col md:flex-row">
-        <div className="flex flex-col items-center justify-center px-4 pt-14 md:py-14 md:px-4 md:w-4/5 lg:w-2/3">
+        <div className="flex flex-col items-center justify-center px-4 pt-14 md:py-14 md:px-4 md:w-5/6 lg:w-4/5">
           <Reveal>
-            <h2 className="text-3xl md:text-5xl xl:text-6xl w-full xl:w-4/5 mb-3 font-medium">
+            <h2 className="text-3xl md:text-4xl xl:text-5xl w-full xl:w-4/5 mb-3 font-medium">
               Streamlined Procurement and Logistics for Ghanaian Businesses
             </h2>
             <p className="text-secondary w-4/5 mb-3">

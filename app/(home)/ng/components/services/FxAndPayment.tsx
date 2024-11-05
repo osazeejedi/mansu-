@@ -1,26 +1,26 @@
-import MansuLogo from "@/app/components/Icons/MansuLogo";
+// import MansuLogo from "@/app/components/Icons/MansuLogo";
 import { Reveal } from "@/app/components/ui/Reveal";
 import Image from "next/image";
 import React from "react";
 
-const fxPayments = [
-  {
-    id: 1,
-    item: "Our tailored approach ensures businesses find the right financial partners to meet their needs.",
-  },
-  {
-    id: 2,
-    item: "We introduce and partner our clients with banks, foreign exchange brokers, payment solutions, and electronic money institutions.",
-  },
-  {
-    id: 3,
-    item: "Mansu offers bespoke consultancy services to bridge gaps for businesses.",
-  },
-];
+// const fxPayments = [
+//   {
+//     id: 1,
+//     item: "Our tailored approach ensures businesses find the right financial partners to meet their needs.",
+//   },
+//   {
+//     id: 2,
+//     item: "We introduce and partner our clients with banks, foreign exchange brokers, payment solutions, and electronic money institutions.",
+//   },
+//   {
+//     id: 3,
+//     item: "Mansu offers bespoke consultancy services to bridge gaps for businesses.",
+//   },
+// ];
 
 const FxAndPayment = () => {
   return (
-    <div className="bg-gradient-to-r from-primary to-[#5F0F2E] text-white flex flex-col lg:flex-row items-center justify-between gap-0 lg:gap-10 pt-14 lg:pt-0  mt-10">
+    <div className="bg-gradient-to-r from-primary to-[#5F0F2E] text-white flex flex-col lg:flex-row items-center justify-between gap-0 lg:gap-10 pt-14 lg:pt-0 px-8 md:px-14 mt-10">
       <Reveal
         position="left"
         className="hidden sm:block relative h-[400px] w-full sm:w-[400px] order-last lg:order-first"
@@ -60,7 +60,7 @@ const FxAndPayment = () => {
             </Reveal>
           ))} */}
           <Reveal>
-            <p className="text-sm w-4/5">
+            <p className="text-sm w-4/5 leading-6">
               We ensure seamless transfers both within Nigeria and
               internationally, with secure transactions.
             </p>

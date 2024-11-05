@@ -5,13 +5,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { Reveal } from "../components/ui/Reveal";
 import { usePathname } from "next/navigation";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "../components/ui/select";
+import CountrySelect from "./CountrySelect";
 
 const navItems = [
   {
@@ -34,15 +28,7 @@ const navItems = [
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
-  const [selectedCountry, setSelectedCountry] = useState("ng");
   const pathname = usePathname();
-
-  useEffect(() => {
-    const countryFromPath = pathname.split("/")[1];
-    if (countryFromPath) {
-      setSelectedCountry(countryFromPath);
-    }
-  }, [pathname]);
 
   const getIsSelected = (path: string) => {
     if (pathname.includes(`/${path}`) || pathname === path) return true;
@@ -61,7 +47,10 @@ const Header = () => {
           />
         </Link>
 
-        <Reveal position="top">
+        <Reveal position="top" className="flex items-center gap-4">
+          <div className="md:hidden">
+            <CountrySelect />
+          </div>
           <div
             onClick={() => setNavOpen(!navOpen)}
             className="md:hidden cursor-pointer text-primary"
@@ -90,25 +79,7 @@ const Header = () => {
             >
               Contact Us
             </Link>
-
-            <Select
-              value={selectedCountry}
-              onValueChange={(value: string) => {
-                setSelectedCountry(value);
-                if (typeof window !== "undefined") {
-                  window.location.href = `/${value}`;
-                }
-              }}
-            >
-              <SelectTrigger className="rounded-lg border bg-white">
-                <SelectValue placeholder="Select country" />
-              </SelectTrigger>
-              <SelectContent className="rounded-lg border-white border-opacity-10 bg-white">
-                <SelectItem value={"ng"}>🇳🇬 NG</SelectItem>
-                <SelectItem value={"uk"}>🇬🇧 UK</SelectItem>
-                <SelectItem value={"gh"}>🇬🇭 GH</SelectItem>
-              </SelectContent>
-            </Select>
+            <CountrySelect />
           </div>
         </Reveal>
       </div>
