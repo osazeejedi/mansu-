@@ -30,7 +30,7 @@ const Footer = () => {
     "/gh": "23, Close to Potential Skills School, Awoshie, Tagbo Street, Accra",
   };
 
-  // Default address if path is not country-specific
+  // Default address if path is not country-specific.
   const defaultAddress = "Global Headquarters, Mansu Consultancy";
 
   // Determine the address based on the pathname
