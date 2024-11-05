@@ -1,43 +1,41 @@
 import { NextRequest, NextResponse } from "next/server";
 
 export const middleware = async (req: NextRequest) => {
-  const response = await fetch(`http://ip-api.com/json`);
-  const data = await response.json();
-
-  // Check for specific countries and redirect accordingly
+  const allowedPaths = ["/about", "/partnership", "/our-services", "/contact-us"];
   const currentPath = req.nextUrl.pathname;
-  const countryCode = data.countryCode.toString().toLowerCase();
 
-  // Allow access to specific paths without redirection
-  const allowedPaths = [
-    "/about",
-    "/partnership",
-    "/our-services",
-    "/contact-us",
-  ];
+  // Allow certain paths without redirection
   if (allowedPaths.includes(currentPath)) {
     return NextResponse.next();
   }
 
-  if (countryCode === "ng" && currentPath === "/") {
-    const newPath = `/ng`;
-    const newUrl = new URL(newPath, req.url);
-    return NextResponse.redirect(newUrl, { status: 301 });
-  } else if (countryCode === "gh" && currentPath === "/") {
-    const newPath = `/gh`;
-    const newUrl = new URL(newPath, req.url);
-    return NextResponse.redirect(newUrl, { status: 301 });
-  } else if (countryCode === "gb" && currentPath === "/") {
-    const newPath = `/gb`;
-    const newUrl = new URL(newPath, req.url);
-    return NextResponse.redirect(newUrl, { status: 301 });
-  } else if (currentPath === "/") {
-    const newPath = `/gb`;
-    const newUrl = new URL(newPath, req.url);
-    return NextResponse.redirect(newUrl, { status: 301 });
-  } else {
-    return NextResponse.next();
+  try {
+    // Fetch the user's location based on IP
+    const response = await fetch(`http://ip-api.com/json/${req.ip}`);
+    const data = await response.json();
+
+    const countryCode = data.countryCode.toLowerCase();
+    
+    // Conditional redirection based on country code
+    if (countryCode === "ng" && currentPath === "/") {
+      return NextResponse.redirect(new URL("/ng", req.url), { status: 301 });
+    } else if (countryCode === "gh" && currentPath === "/") {
+      return NextResponse.redirect(new URL("/gh", req.url), { status: 301 });
+    } else if (countryCode === "gb" && currentPath === "/") {
+      return NextResponse.redirect(new URL("/gb", req.url), { status: 301 });
+    } else if (currentPath === "/") {
+      return NextResponse.redirect(new URL("/gb", req.url), { status: 301 });
+    }
+  } catch (error) {
+    console.error("Failed to fetch location data:", error);
+    // Optionally, handle the failure by redirecting to a default page
+    if (currentPath === "/") {
+      return NextResponse.redirect(new URL("/gb", req.url), { status: 301 });
+    }
   }
+
+  // Proceed to the requested page if no redirection is necessary
+  return NextResponse.next();
 };
 
 export const config = {
