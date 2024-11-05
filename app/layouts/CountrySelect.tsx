@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
   Select,
   SelectContent,
@@ -8,23 +8,16 @@ import {
   SelectTrigger,
   SelectValue,
 } from "../components/ui/select";
-import { usePathname } from "next/navigation";
+import { useCountryContext } from "../context/CountryContext";
 
 const CountrySelect = () => {
-  const [selectedCountry, setSelectedCountry] = useState("ng");
-  const pathname = usePathname();
+  const { location, setLocation } = useCountryContext();
 
-  useEffect(() => {
-    const countryFromPath = pathname.split("/")[1];
-    if (countryFromPath) {
-      setSelectedCountry(countryFromPath);
-    }
-  }, [pathname]);
   return (
     <Select
-      value={selectedCountry}
+      value={location}
       onValueChange={(value: string) => {
-        setSelectedCountry(value);
+        setLocation(value);
         if (typeof window !== "undefined") {
           window.location.href = `/${value}`;
         }
@@ -36,7 +29,7 @@ const CountrySelect = () => {
       <SelectContent className="rounded-lg border-white border-opacity-10 bg-white">
         <SelectItem value={"ng"}>🇳🇬 NG</SelectItem>
         <SelectItem value={"gh"}>🇬🇭 GH</SelectItem>
-        <SelectItem value={"uk"}>🇬🇧 UK</SelectItem>
+        <SelectItem value={"gb"}>🇬🇧 UK</SelectItem>
       </SelectContent>
     </Select>
   );
