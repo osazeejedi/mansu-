@@ -1,6 +1,8 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { usePathname } from "next/navigation";
 
 const quickLinksItems = [
   { id: 1, text: "Company", href: "about" },
@@ -16,6 +18,24 @@ const homeItems = [
 ];
 
 const Footer = () => {
+  const pathname = usePathname();
+
+  // Extract the base path, e.g., "/ng" from "/ng/some-page"
+  const basePath = `/${pathname.split("/")[1]}`;
+
+  // Define addresses based on the country-specific pages
+  const addresses = {
+    "/ng": "5-7 Turnbull Road, Ikoyi Lagos, Nigeria",
+    "/gb": "Building 3 North London Business Park Oakleigh Road South London",
+    "/gh": "23, Close to Potential Skills School, Awoshie, Tagbo Street, Accra",
+  };
+
+  // Default address if path is not country-specific
+  const defaultAddress = "Global Headquarters, Mansu Consultancy";
+
+  // Determine the address based on the pathname
+  const address = addresses[basePath as "/ng" | "/gb" | "/gh"] || defaultAddress;
+
   return (
     <div className="bg-black p-4 text-white">
       <div className="container mx-auto px-4 py-10 md:py-14">
@@ -52,12 +72,7 @@ const Footer = () => {
 
             <div className="flex flex-col gap-3 mt-10 md:mt-0">
               <h6 className="font-medium">Locations</h6>
-              <p className="text-sm text-grey">
-                5-7 Turnbull Road, Ikoyi Lagos, Nigeria
-              </p>
-              {/* <p className="text-sm text-grey">
-                Building 3 North London Business Park Oakleigh Road South London
-              </p> */}
+              <p className="text-sm text-grey">{address}</p>
             </div>
           </div>
         </div>
