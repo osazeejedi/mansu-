@@ -51,14 +51,14 @@ const MarketingServices = () => {
       <div className="self-start lg:self-auto w-full lg:w-1/2 order-first lg:order-last">
         <Reveal>
           <h3 className="text-2xl md:text-4xl font-medium mb-5">
-            Strategic Partnerships
+          Efficient Logistics Coordination
           </h3>
         </Reveal>
         <div className="space-y-4">
           <Reveal>
             <p className="text-sm w-4/5 leading-6">
-              By leveraging our supplier contracts, we provide competitive
-              pricing and secure priority access across product categories.
+            From transportation to warehousing, our logistics services ensure
+            timely, accurate delivery of procured goods.
             </p>
           </Reveal>
           {/* {MarketingServicesItems.map(({ item, id }) => (

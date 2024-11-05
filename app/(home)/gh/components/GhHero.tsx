@@ -24,7 +24,7 @@ const GhHero = () => {
         <div className="flex flex-col items-center justify-center px-4 pt-14 md:py-14 md:px-4 md:w-5/6 lg:w-4/5">
           <Reveal>
             <h2 className="text-3xl md:text-4xl xl:text-5xl w-full xl:w-4/5 mb-3 font-medium">
-              Streamlined Procurement and Logistics for Ghanaian Businesses
+            Expert Guidance in Procurement Excellence
             </h2>
             <p className="text-secondary w-4/5 mb-3">
               Mansu provides comprehensive procurement services and

@@ -2,6 +2,7 @@ import React from "react";
 import BusinessStrategy from "./services/BusinessStrategy";
 import FxAndPayment from "./services/FxAndPayment";
 import MarketingServices from "./services/MarketingServices";
+import Research from "./services/Research";
 
 const GhServices = () => {
   return (
@@ -18,6 +19,7 @@ const GhServices = () => {
         <FxAndPayment />
         <BusinessStrategy />
         <MarketingServices />
+        <Research />
       </div>
     </div>
   );

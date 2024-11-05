@@ -18,39 +18,30 @@ const BusinessStrategyItems = [
   },
 ];
 
-const BusinessStrategy = () => {
+const Research = () => {
   return (
-    <div className="bg-background flex flex-col lg:flex-row items-center  gap-0 lg:gap-10 pt-10 py-4 lg:pt-0 px-8 md:px-14 mt-10">
-      <div className="self-start lg:self-auto">
+    <div className="bg-background flex flex-col lg:flex-row items-center gap-0 lg:gap-10 pt-10 lg:pt-0 px-8 md:px-14 mt-10">
+      <div className="self-start lg:self-auto lg:w-1/2">
         <Reveal className="text-2xl md:text-4xl font-medium mb-5">
-        Financial Consultancy and FX Strategies
+        Research and Analytics
         </Reveal>
 
         <div className="space-y-4">
-          <Reveal>
+          <Reveal className="flex items-start gap-2">
             <p className="text-sm w-4/5 leading-6">
-              We guide businesses on international funding, connecting them with
-              financial partners to optimize costs and navigate cross-border
-              transactions.
+            Our team of seasoned researchers and analysts possesses extensive experience across a wide range of industries. 
+            We conduct thorough, detailed investigations, ensuring that no aspect is overlooked. 
+            All findings will be meticulously presented to equip your company with the insights needed for success, allowing you to focus on effective implementation.
             </p>
           </Reveal>
-          {/* {BusinessStrategyItems.map(({ item, id }) => (
-            <Reveal key={id} className="flex items-start gap-2">
-              <div className="bg-white p-1 rounded-full">
-                <MansuLogo />
-              </div>
-              <p>{item}</p>
-            </Reveal>
-          ))} */}
         </div>
       </div>
 
-      {/* <div className="w-full md:w-1/3"> */}
-      <Reveal className="hidden sm:block" position="right">
+      <Reveal className="hidden sm:block md:w-1/2" position="right">
         <div className="relative h-[400px] w-full sm:w-[400px]">
           <Image
             quality={100}
-            src={"/assets/images/home/uk_service_2.png"}
+            src={"/assets/images/home/Business-strategy-img.png"}
             alt="Business Strategy"
             sizes="(min-width: 808px) 50vw, 100vw"
             className="object-cover"
@@ -61,16 +52,15 @@ const BusinessStrategy = () => {
       <div className="sm:hidden relative h-[400px] w-full sm:w-[400px]">
         <Image
           quality={100}
-          src={"/assets/images/home/uk_service_2.png"}
+          src={"/assets/images/home/Business-strategy-img.png"}
           alt="Business Strategy"
           sizes="(min-width: 808px) 50vw, 100vw"
           className="object-cover"
           fill
         />
       </div>
-      {/* </div> */}
     </div>
   );
 };
 
-export default BusinessStrategy;
+export default Research;
